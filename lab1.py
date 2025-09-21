@@ -46,7 +46,7 @@ def conversionToDecimalSystem(a,c):
 		numberInDecimalSystem = int(a, int(c))
 
 	else:
-		raise ValueError(f"Произошла какая-то ошибка")
+		raise ValueError(f"Invalid System")
 
 	return numberInDecimalSystem
 
