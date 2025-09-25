@@ -46,7 +46,7 @@ def conversionToDecimalSystem(a,c):
 		numberInDecimalSystem = int(a, int(c))
 
 	else:
-		raise ValueError(f"Invalid System")
+		raise ValueError(f"Произошла какая-то ошибка")
 
 	return numberInDecimalSystem
 
@@ -82,8 +82,8 @@ def conversionFromDecimalToDifferentSystem(a, b):
 			if r > base // 2:
 				r -= base
 				x += 1
-			if r == -1:
-				answer = "{^1}" + answer
+			if r < 0:
+				answer = "{" + str(abs(r)) + '}' + answer
 			else:
 				answer = str(r) + answer
 		return answer or "0"
