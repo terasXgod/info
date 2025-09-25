@@ -9,7 +9,7 @@ def conversionToDecimalSystem(a,c):
 		fibs = [1, 2]
 		for i in range(2, len(a) + 1):
 			fibs.append(fibs[i-1] + fibs[i-2])
-		for i, ch in enumerate(reversed(a)):
+		for i, ch in enumerate(a[::-1]):
 			if ch == '1':
 				numberInDecimalSystem += fibs[i]
 			elif ch == '0':
@@ -37,7 +37,7 @@ def conversionToDecimalSystem(a,c):
 
 	elif re.fullmatch(r"-[0-9]+", c):
 		base = int(c)
-		for i, ch in enumerate(reversed(a)):
+		for i, ch in enumerate(a[::-1]):
 			if not ch.isdigit():
 				raise ValueError(f"Invalid Symbol: '{ch}'")
 			numberInDecimalSystem += int(ch) * (base ** i)
@@ -46,7 +46,7 @@ def conversionToDecimalSystem(a,c):
 		numberInDecimalSystem = int(a, int(c))
 
 	else:
-		raise ValueError(f"Произошла какая-то ошибка")
+		raise ValueError(f"Something went wrong")
 
 	return numberInDecimalSystem
 
@@ -83,7 +83,7 @@ def conversionFromDecimalToDifferentSystem(a, b):
 				r -= base
 				x += 1
 			if r < 0:
-				answer = "{" + str(abs(r)) + '}' + answer
+				answer = "{^" + str(abs(r)) + '}' + answer
 			else:
 				answer = str(r) + answer
 		return answer or "0"
@@ -101,10 +101,11 @@ def conversionFromDecimalToDifferentSystem(a, b):
 	
 	elif re.fullmatch(r"[0-9]+", b):
 		base = int(b)
+		x = a
 		while x != 0:
 			x, r = divmod(x, base)
 			answer += str(r)
-		return reversed(answer) or "0"
+		return answer[::-1] or "0"
 
 def convert(a, b, c):
 	dec = conversionToDecimalSystem(a, c)
