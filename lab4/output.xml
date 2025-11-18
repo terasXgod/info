@@ -1,0 +1,64 @@
+- <Ср> 
+  <time>"11:30-13:00"</time>
+  <weeks>"2, 4, 6, 8, 10, 12, 14, 16"</weeks>
+  <group>"ИНФОРМ КСиТ 2"</group>
+  <build>"ул.Ломоносова, д.9, лит. М"</build>
+  <lesson>"Информатика (Лек) : Актовый зал"</lesson>
+  <lessonFormat>"Очно - дистанционный"</lessonFormat>
+</Ср>
+- <Ср> 
+  <time>"11:30-13:00"</time>
+  <weeks>"2, 4, 6, 8, 10, 12, 14, 16"</weeks>
+  <group>"ИНФОРМ СиППО 1"</group>
+  <build>"ул.Ломоносова, д.9, лит. М"</build>
+  <lesson>"Информатика (Лек) : Актовый зал"</lesson>
+  <lessonFormat>"Очно - дистанционный"</lessonFormat>
+</Ср>
+- <Сб> 
+  <time>"8:10-9:40"</time>
+  <weeks>"6, 7, 8, 10, 11, 12, 13, 14"</weeks>
+  <group>"PRLCOMP 1"</group>
+  <build>"Кронверкский пр., д.49, лит.А"</build>
+  <lesson>"Parallel Computing / Параллельные вычисления (Лек)"</lesson>
+  <lessonFormat>"Очно - дистанционный"</lessonFormat>
+</Сб>
+- <Сб> 
+  <time>"9:50-11:20"</time>
+  <weeks>"6, 7, 8, 10, 11, 12, 13, 14"</weeks>
+  <group>"PRLCOMP 1.1"</group>
+  <build>"Кронверкский пр., д.49, лит.А"</build>
+  <lesson>"Parallel Computing / Параллельные вычисления (Лаб)"</lesson>
+  <lessonFormat>"Очно - дистанционный"</lessonFormat>
+</Сб>
+- <Сб> 
+  <time>"11:30-13:00"</time>
+  <weeks>"2, 4, 6, 8, 10, 12, 14, 16"</weeks>
+  <group>"ИНФОРМ (Р3106) 1.1"</group>
+  <build>"Кронверкский пр., д.49, лит.А"</build>
+  <lesson>"Информатика (Лаб)"</lesson>
+  <lessonFormat>"Очно - дистанционный"</lessonFormat>
+</Сб>
+- <Сб> 
+  <time>"11:30-13:00"</time>
+  <weeks>"3, 5, 7, 9, 11, 13, 15, 17"</weeks>
+  <group>"ИНФОРМ (Р3107) 1.2"</group>
+  <build>"Кронверкский пр., д.49, лит.А"</build>
+  <lesson>"Информатика (Лаб)"</lesson>
+  <lessonFormat>"Очно - дистанционный"</lessonFormat>
+</Сб>
+- <Сб> 
+  <time>"13:30-15:00"</time>
+  <weeks>"2, 4, 6, 8, 10, 12, 14, 16"</weeks>
+  <group>"ИНФОРМ (Р3106) 1.1"</group>
+  <build>"Кронверкский пр., д.49, лит.А"</build>
+  <lesson>"Информатика (Лаб)"</lesson>
+  <lessonFormat>"Очно - дистанционный"</lessonFormat>
+</Сб>
+- <Сб> 
+  <time>"13:30-15:00"</time>
+  <weeks>"3, 5, 7, 9, 11, 13, 15, 17"</weeks>
+  <group>"ИНФОРМ (Р3107) 1.2"</group>
+  <build>"Кронверкский пр., д.49, лит.А"</build>
+  <lesson>"Информатика (Лаб)"</lesson>
+  <lessonFormat>"Очно - дистанционный"</lessonFormat>
+</Сб>

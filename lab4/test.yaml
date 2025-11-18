@@ -1,0 +1,36 @@
+
+# Информация о пользователе
+user:
+  name: 'Alex'
+  age: 30
+  is_active: true
+  
+  # Роли пользователя
+  roles:
+    - admin
+    - editor
+    - viewer
+
+  # Метаданные с вложенностью
+  metadata:
+    last_login: 2023-10-27
+    preferences:
+      theme: dark
+      notifications: true
+
+# Список продуктов
+products:
+  - name: "Laptop"
+    price: 1200.50
+    tags:
+      - electronics
+      - computer
+  - name: "Mouse"
+    price: 25
+
+# Ключ без значения
+empty_key:
+
+# Пустой список
+empty_list:
+    

@@ -1,0 +1,201 @@
+main.css
+
+body{
+    background-image: url(https://img2.goodfon.ru/original/1920x1080/7/80/na-vi-natus-vincere-navi-navi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.block1 { 
+    width: 60%; 
+    background: linear-gradient(rgba(255, 28, 28, 0.733),rgba(24, 20, 20, 0.767));
+    position: relative;
+    left: 20%
+}
+
+.block2 {
+    width: 75%;
+    background: rgba(255, 227, 227, 0.575);
+    float: left
+}
+
+.block3{
+    position: fixed;
+    height: 12%;
+    width: 12%;
+    top: 0;
+    left: 95%;
+}
+
+.tablitca{
+    float:right;
+    position: relative;
+    background:rgb(161, 222, 250);
+}
+
+p{
+    color: rgb(56, 56, 56);
+}
+
+.block4{
+    position: relative;
+    width: 40%;
+    float: left;
+    left:2.5%;
+    height: 30%;
+}
+
+.block5{
+    position: relative;
+    width: 50%;
+    float: right;
+    right:5%;
+    bottom: 0;
+}
+
+.block6{
+    background: rgba(85, 85, 85, 0.452);
+    width:80%;
+    height: 50%;
+    padding: 1%;
+}
+
+
+
+
+
+
+.verh{
+    height: 5%;
+    width: 100%;
+    background: linear-gradient(to left, rgb(112, 8, 8),rgb(31, 31, 31));
+}
+
+.verh1{
+    position: relative;
+    width: 40%;
+    height:100%;
+    left: 5%;
+    float: left
+}
+
+.niz{
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    float: left;
+    background: linear-gradient(to right, rgb(112, 8, 8),rgb(31, 31, 31));
+}
+
+.niz1{
+    position: relative;
+    float:right;
+    width: 3%;
+    right: 2%;
+    top: 10%
+}
+
+.gg{
+    position: relative;
+    left:5%;
+    background: rgba(43, 43, 43, 0.877);
+    width: 90%;
+    height: 80%;
+    top:5%
+}
+
+.gg1{
+    position: relative;
+    background: rgba(128, 123, 123, 0.562);
+    width: 40%;
+    left:3%;
+    top:5%
+}
+
+.gg1:hover{
+    position: relative;
+    background: rgba(214, 64, 64, 0.623);
+    width: 40%;
+    left:3%;
+    top:5%
+}
+
+.ggname{
+    position: relative;
+    background: linear-gradient(to top,rgb(37, 37, 37),rgb(230, 41, 41));
+    width: 20%;
+    top:3%;
+    right:10%;
+    float:right
+}
+
+.ggname1{
+    position: relative;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.295),rgb(230, 41, 41));
+    width: 20%;
+    height: 6%;
+    top:3%;
+    right:10%;
+    float:right
+}
+
+.ggname2{
+    position: relative;
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.295),rgb(230, 41, 41));
+    width: 20%;
+    height: 6%;
+    top:9%;
+    right:-10%;
+    float:right
+}
+
+.strana2{
+    position: relative;
+    width: 10%;
+    height: 40%;
+    float: right;
+    bottom:80%;
+    right: 18%;
+}
+
+
+.ggphoto{
+    position: relative;
+    float:right;
+    right:5%;
+    bottom:23%;
+    width: 30%;
+    height:70%
+}
+.ggvideo{
+    position: relative;
+    float: left;
+    width: 40%;
+    left: 3%;
+    top: 8%
+}
+
+
+
+
+
+
+
+a{
+    color: rgb(0, 0, 0)
+}
+
+a:hover{
+    color:rgb(255, 0, 0)
+}
+
+font{
+    color: #1a1a1a
+}
+
+font:hover{
+    color: rgb(255, 182, 182);
+}
+

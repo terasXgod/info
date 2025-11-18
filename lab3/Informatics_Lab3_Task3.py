@@ -43,7 +43,7 @@ def passwordValidator(s: str):
     rule5 = r"\d"
     digits = re.findall(rule5, s)
     sumDigit = sum(map(int, digits))
-    if sumDigit >= 25:
+    if sumDigit == 25:
         print(" [X] - The digits in your password must add up to 25.")
     else:
         print(" [ ] - The digits in your password must add up to 25.")
